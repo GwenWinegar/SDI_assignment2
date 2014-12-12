@@ -26,7 +26,7 @@ currentSituation = "You are locked inside of the jungle portal the only way out 
 immediateThreat = "Terrifying growls are closing in on your current location";
 getStarted = "Let\'s get started";
 reactionTime = "You have 3 minutes to grab gear and run for your life";
-theDirection = true;
+theDirection = right;
 
 // Variables: Assign Literal Value - this causes the alert box to appear.
 alert(currentSituation);
@@ -81,5 +81,3 @@ if (<10) {
 } else {
   print("Meet Brandon");
 }
-
-  
