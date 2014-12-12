@@ -40,6 +40,35 @@ console.log("Next thing we notice is that there were " +  immediateThreat + ".")
 console.log("We hear an announcement we have " +  reactionTime + " minutes to act and it starts to count down.");
 console.log("It is " +  theDirection + " that the growls are coming form the left and people are running right.");
 
+//other shoppers/players that are regular cast members in the game
+//the first three are found as a group and they are always allies as you make your journey through the game
+var castOfPlayers = ["Marlowe", "Matt", "Violet"];
+
+//these are randomly encountered players you find along the way
+//These players are random in their alliances and could be friend or foe
+castOfPlayers[3] = "Brian";
+castOfPlayers[4] = "Tina";
+castOfPlayers[5] = "Brandon";
+
+
+
+castOfPlayers[castOfPlayers.length] = "Jennifer";
+
+for (var i = 0; i < castOfPlayers.length; i++)  {
+
+  if (castOfPlayers[i] === "Matt") {
+
+    console.log(castOfPlayers[i] + " is an allie");
+
+  };
+
+
+};
+
+
+
+
+
 // prompt
 //function myFunction() {
 //var choice =
