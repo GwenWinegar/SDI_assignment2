@@ -81,3 +81,10 @@ if (<10) {
 } else {
   print("Meet Brandon");
 }
+
+//conditional about the weather
+if (rain === yes) {
+  print("find shelter");
+} else {
+  print("look for food");
+}
