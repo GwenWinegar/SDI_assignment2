@@ -67,25 +67,11 @@ for (var i = 0; i < castOfPlayers.length; i++)  {
 
 
 
-
-
-// prompt
-//function myFunction() {
-//var choice =
-//prompt("Times up!", "left or right?");
-
-  //if (choice right = null) {
-
-    //var choice = prompt("Hope you chose wisely...proceed " + choice + "! You have 5 more minutes to reach the next checkpoint...so run!");
-//  }
-//}
-
-
 // conditional
-if (theDirection == true) {
+if ("Night" === true) {
   //If direction is true, we run this code
-  console.log("We will run right.");
+  print("We should run right.");
 } else {
   //if the direction is false, we run this code
-  console.log("We will run left.");
+  print("We should run left.");
 }
