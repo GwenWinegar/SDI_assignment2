@@ -65,9 +65,7 @@ for (var i = 0; i < castOfPlayers.length; i++)  {
 
 };
 
-
-
-// conditional
+// conditional day run left/night is right
 if ("Night" === true) {
   //If direction is true, we run this code
   print("We should run right.");
@@ -75,3 +73,13 @@ if ("Night" === true) {
   //if the direction is false, we run this code
   print("We should run left.");
 }
+
+//conditional meet up with a player/s depending upon
+//how many feet you run until you stop
+if (<10) {
+  print("Meet Brian");
+} else {
+  print("Meet Brandon");
+}
+
+  
